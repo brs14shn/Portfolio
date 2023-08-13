@@ -21,7 +21,7 @@ useEffect(()=>{
     <Suspense
     fallback ={
       <div className="h-screen w-full flex items-center justify-center">
-       <BarLoader  height={4} color='red'/>
+       <BarLoader  height={4} color='brown'/>
       </div>
     }
     >
@@ -29,7 +29,7 @@ useEffect(()=>{
       <div className="h-screen w-full flex items-center justify-center">
       {/* <BarLoader  height={4} color='red'/> */}
       {/* <PacmanLoader/> */}
-      <PropagateLoader height={4} />
+      <PropagateLoader height={4} color='brown' />
      </div>
       ) : <Home/>}
 
